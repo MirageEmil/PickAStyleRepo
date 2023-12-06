@@ -18,8 +18,13 @@ public class PlayerAnim : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        playerSr = GetComponent<SpriteRenderer>();
         InvokeRepeating(nameof(NextFrame), animTime, animTime);
+
+    }
+
+    private void Awake()
+    {
+        playerSr = GetComponent<SpriteRenderer>();
 
     }
 
@@ -48,13 +53,13 @@ public class PlayerAnim : MonoBehaviour
 
     private void OnEnable()
     {
-        
+        playerSr.enabled = true;
 
     }
 
     private void OnDisable()
     {
-        
+        playerSr.enabled = false;
 
     }
 

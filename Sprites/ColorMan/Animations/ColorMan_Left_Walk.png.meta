@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f52ff0e42fa551247ba962ca981d69cf
+guid: e5a7f880b21770d41b993b8c376ee7ff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1000
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bomb_0
+      name: ColorMan_Left_Walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
-        width: 960
-        height: 960
+        y: 975
+        width: 975
+        height: 975
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b62e6090635934448b662af8eb9154b
-      internalID: -1186139068
+      spriteID: fec73ed57dc442948a49bd6ca7152a30
+      internalID: 1770593190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bomb_1
+      name: ColorMan_Left_Walk_1
       rect:
         serializedVersion: 2
-        x: 960
-        y: 960
-        width: 960
-        height: 960
+        x: 975
+        y: 975
+        width: 975
+        height: 975
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddd97607c31f29e4d985fe297d9088a4
-      internalID: 1805785339
+      spriteID: fa736af3e302b9b4ca6c82a5354cec7a
+      internalID: 672259906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bomb_2
+      name: ColorMan_Left_Walk_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 960
-        height: 960
+        width: 975
+        height: 975
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe1300cf7e79a814abae07eecab70243
-      internalID: -1849043494
+      spriteID: 2bd7d041ce854f9458acdd0dbc85c6ab
+      internalID: 1105612132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bomb_3
+      name: ColorMan_Left_Walk_3
       rect:
         serializedVersion: 2
-        x: 960
+        x: 975
         y: 0
-        width: 960
-        height: 960
+        width: 975
+        height: 975
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ccce089c822d7c43b81f78d6b0be978
-      internalID: 1249763738
+      spriteID: 254b44d980aac5a4d8aeabdf5c1ddeea
+      internalID: 1819831694
       vertices: []
       indices: 
       edges: []
@@ -211,10 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bomb_0: -1186139068
-      Bomb_1: 1805785339
-      Bomb_2: -1849043494
-      Bomb_3: 1249763738
+      ColorMan_Left_Walk_0: 1770593190
+      ColorMan_Left_Walk_1: 672259906
+      ColorMan_Left_Walk_2: 1105612132
+      ColorMan_Left_Walk_3: 1819831694
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

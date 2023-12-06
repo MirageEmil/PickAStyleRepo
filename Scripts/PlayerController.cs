@@ -31,6 +31,12 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    private void Awake()
+    {
+        activeSr = srDown;
+
+    }
+
     // Update is called once per frame
     private void Update()
     {
