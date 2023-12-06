@@ -3836,10 +3836,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afa78e59f6d02f241a63b1fb4aae987e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 0}
+  bombPrefab: {fileID: 2114457728478353461, guid: b85a8455e5b14ae45a16ea9a1e656552, type: 3}
+  explosionPrefab: {fileID: -6777173976845902342, guid: 76e0b8d9b0cd4ff499349ad7a81b2b74, type: 3}
   inputKey: 32
-  bombTime: 0
-  bombAmount: 0
+  explodeTime: 1
+  bombTime: 3
+  explodeRadius: 1
+  bombAmount: 1
 --- !u!1 &1983109998
 GameObject:
   m_ObjectHideFlags: 0
