@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class BombController : MonoBehaviour
 {
     public GameObject bombPrefab;
 
+    public Tilemap breakableTiles;
+
     public ExplodeController explosionPrefab;
+    public Breakable breakablePrefab;
 
     public LayerMask explodeLayerMask;
 
@@ -91,6 +95,13 @@ public class BombController : MonoBehaviour
 
         position += direction;
 
+        if(Physics2D.OverlapBox(position, Vector2.one / 2f, 0f, explodeLayerMask))
+        {
+            ClearBreakable(position);
+
+            return;
+        }
+
         ExplodeController explode = Instantiate(explosionPrefab, position, Quaternion.identity);
 
         explode.SetActiveRenderer(length > 1 ? explode.mid : explode.end);
@@ -100,6 +111,21 @@ public class BombController : MonoBehaviour
         Destroy(explode.gameObject, explodeTime);
 
         Explosion(position, direction, length -1);
+
+    }
+
+    private void ClearBreakable(Vector2 position)
+    {
+        Vector3Int cell = breakableTiles.WorldToCell(position);
+        TileBase tile = breakableTiles.GetTile(cell);
+
+        if(tile != null)
+        {
+            Instantiate(breakablePrefab, position, Quaternion.identity);
+
+            breakableTiles.SetTile(cell, null);
+
+        }
 
     }
 

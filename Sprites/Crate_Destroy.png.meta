@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 53082367978c4924c9619dc99dccc512
+guid: 2283aa8d7e8137842845f964ca90fafd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 225
+  spritePixelsToUnits: 960
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Explosion_End_0
+      name: Crate_Destroy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 960
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6339900a4c369d6498854991788681f9
+      internalID: 2060241784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crate_Destroy_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 960
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f43a78170d468644870dbac9b41f841
+      internalID: 1391753914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crate_Destroy_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 960
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f9e7d31aaf66446b07edb71ee5d983
+      internalID: -1187241178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crate_Destroy_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 960
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc128198adb3e544ebabb65e2ec9fd65
+      internalID: -1881463139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crate_Destroy_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 960
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a87a923b1bbd442acfd6f7d7f37149
+      internalID: -1113163816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crate_Destroy_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 960
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4900c6a103c04f34face15727fee1dcb
+      internalID: -826295944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crate_Destroy_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 240
-        height: 240
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,155 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95df90753e23a244580a5a12f2964923
-      internalID: 416286336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_End_1
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2de8687647cbfec4da1baa778a06f751
-      internalID: -630085945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_End_2
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc6cdb8d55f4d0c4f907fdac4ce8a2c7
-      internalID: 2079704230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_End_3
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 0
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 968dba5f335841f4d9644cc50862608b
-      internalID: -1288607081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_End_4
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab672ba2b7cce8e4da6b4f634b36cf3f
-      internalID: -592480564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_End_5
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8207d698d9e0b9646916418cf92df93f
-      internalID: 614952388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_End_6
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 637114e1fb38f044f8248f48ecdbafc0
-      internalID: -407042348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_End_7
-      rect:
-        serializedVersion: 2
-        x: 1680
-        y: 0
-        width: 240
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 593ba89549289144785b71fbbe517010
-      internalID: 972424165
+      spriteID: 21c17585b721e574bb3c3bb67de7d319
+      internalID: -1251518727
       vertices: []
       indices: 
       edges: []
@@ -295,14 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Explosion_End_0: 416286336
-      Explosion_End_1: -630085945
-      Explosion_End_2: 2079704230
-      Explosion_End_3: -1288607081
-      Explosion_End_4: -592480564
-      Explosion_End_5: 614952388
-      Explosion_End_6: -407042348
-      Explosion_End_7: 972424165
+      Crate_Destroy_0: 2060241784
+      Crate_Destroy_1: 1391753914
+      Crate_Destroy_2: -1187241178
+      Crate_Destroy_3: -1881463139
+      Crate_Destroy_4: -1113163816
+      Crate_Destroy_5: -826295944
+      Crate_Destroy_6: -1251518727
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
