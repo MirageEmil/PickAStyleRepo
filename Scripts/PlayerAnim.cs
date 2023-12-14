@@ -9,7 +9,7 @@ public class PlayerAnim : MonoBehaviour
     public Sprite idleSprite;
     public Sprite[] animSprites;
 
-    private int animFrame;
+    public int animFrame;
     public float animTime;
 
     public bool loop = true;
@@ -28,7 +28,7 @@ public class PlayerAnim : MonoBehaviour
 
     }
 
-    private void NextFrame()
+    public void NextFrame()
     {
         animFrame++;
 

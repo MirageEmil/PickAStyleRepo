@@ -129,4 +129,11 @@ public class BombController : MonoBehaviour
 
     }
 
+    public void AddBomb()
+    {
+        bombAmount++;
+        bombsRemain++;
+
+    }
+
 }

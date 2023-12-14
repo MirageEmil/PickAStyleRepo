@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public PlayerAnim srLeft;
     public PlayerAnim srRight;
 
+    public PlayerAnim srDeath;
+
     private PlayerAnim activeSr;
 
     private Vector2 direction = Vector2.down;
@@ -25,6 +27,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        enabled = true;
+
         PlayerRb = GetComponent<Rigidbody2D>();
 
         activeSr = srDown;
@@ -80,9 +84,45 @@ public class PlayerController : MonoBehaviour
         srDown.enabled = sr == srDown;
         srLeft.enabled = sr == srLeft;
         srRight.enabled = sr == srRight;
+        srDeath.enabled = sr == srDeath;
 
         activeSr = sr;
         activeSr.idle = direction == Vector2.zero;
 
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.layer == LayerMask.NameToLayer("Explode"))
+        {
+            Death();
+
+        }
+
+    }
+
+    private void Death()
+    {
+        enabled = false;
+
+        GetComponent<BombController>().enabled = false;
+
+        srUp.enabled = false;
+        srDown.enabled = false;
+        srLeft.enabled= false;
+        srRight.enabled= false;
+
+        srDeath.animFrame = 0;
+        srDeath.enabled = true;
+
+        Invoke(nameof(DeathEnded), 1.5f);
+    }
+
+    private void DeathEnded()
+    {
+        gameObject.SetActive(false);
+        FindObjectOfType<GameManager>().CheckWinState();
+
+    }
+
 }

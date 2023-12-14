@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3307ad83806a8ce43a1de0554961b42a
-      internalID: 1091220068
+      spriteID: a6c503d48dc4fee4d853f4bef2f48b75
+      internalID: -1089519780
       vertices: []
       indices: 
       edges: []
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7c9212877f00594c91277a0ebb5755d
-      internalID: 1793167002
+      spriteID: 411cca3464512ba4684a016e025a26f9
+      internalID: 2045451532
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49ad3afb3a646db41b4371b316a6ccd3
-      internalID: -1153857501
+      spriteID: 11a954ce8a6fdc84395fff3ff963aada
+      internalID: 308894053
       vertices: []
       indices: 
       edges: []
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 080f17788a2fdec4095c3ce69800d08e
-      internalID: -1554729423
+      spriteID: 76661b401ddfa58479bb2f78f7e348a9
+      internalID: -730406770
       vertices: []
       indices: 
       edges: []
@@ -211,10 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ColorMan_Right_Walk_0: 1091220068
-      ColorMan_Right_Walk_1: 1793167002
-      ColorMan_Right_Walk_2: -1153857501
-      ColorMan_Right_Walk_3: -1554729423
+      ColorMan_Right_Walk_0: -1089519780
+      ColorMan_Right_Walk_1: 2045451532
+      ColorMan_Right_Walk_2: 308894053
+      ColorMan_Right_Walk_3: -730406770
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

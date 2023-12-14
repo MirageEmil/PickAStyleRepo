@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7602231652073658984}
   - component: {fileID: 89868456134995771}
   - component: {fileID: 1294298979417528796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Breakable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,6 +134,7 @@ MonoBehaviour:
   - {fileID: -1113163816, guid: 2283aa8d7e8137842845f964ca90fafd, type: 3}
   - {fileID: -826295944, guid: 2283aa8d7e8137842845f964ca90fafd, type: 3}
   - {fileID: -1251518727, guid: 2283aa8d7e8137842845f964ca90fafd, type: 3}
+  animFrame: 0
   animTime: 0.16666667
   loop: 0
   idle: 0
@@ -150,3 +151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakTime: 1
+  spawnChance: 0.2
+  pickups:
+  - {fileID: 8877345921847243512, guid: 5a4e4c22814b6f841ab6a8e6fae04020, type: 3}
+  - {fileID: 7001367693725306084, guid: 4ebf5d0cbb34c8c4fbe28f97ba051500, type: 3}
+  - {fileID: 1816279240304253441, guid: d51084c41edbe7b429d84d0fdd0d3a8d, type: 3}
