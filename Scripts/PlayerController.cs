@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject colorWin;
+    public GameObject monoWin;
+
     private Rigidbody2D PlayerRb;
 
     public PlayerAnim srUp;
@@ -44,8 +47,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKey(inputUp))
-        {
+        if(Input.GetKey(inputUp))
+            {
             SetDirection(Vector2.up, srUp);
         }
         else if (Input.GetKey(inputDown))
@@ -57,6 +60,27 @@ public class PlayerController : MonoBehaviour
             SetDirection(Vector2.left, srLeft);
         }
         else if (Input.GetKey(inputRight))
+        {
+            SetDirection(Vector2.right, srRight);
+        }
+        else
+        {
+            SetDirection(Vector2.zero, activeSr);
+        }
+
+        if (Input.GetButtonDown("MonoUp") && CompareTag("Player2"))
+            {
+            SetDirection(Vector2.up, srUp);
+        }
+        else if (Input.GetButtonDown("MonoDown") && CompareTag("Player2"))
+        {
+            SetDirection(Vector2.down, srDown);
+        }
+        else if (Input.GetButtonDown("MonoLeft") && CompareTag("Player2"))
+        {
+            SetDirection(Vector2.left, srLeft);
+        }
+        else if (Input.GetButtonDown("MonoRight") && CompareTag("Player2"))
         {
             SetDirection(Vector2.right, srRight);
         }
@@ -116,6 +140,17 @@ public class PlayerController : MonoBehaviour
         srDeath.enabled = true;
 
         Invoke(nameof(DeathEnded), 1.5f);
+
+        if(CompareTag("Player1"))
+        {
+            monoWin.gameObject.SetActive(true);
+
+        }
+        else if (CompareTag("Player2"))
+        {
+            colorWin.gameObject.SetActive(true);
+
+        }
     }
 
     private void DeathEnded()
