@@ -13,6 +13,8 @@ public class BombController : MonoBehaviour
     public Breakable breakablePrefab;
 
     public LayerMask explodeLayerMask;
+
+    public KeyCode inputBomb;
     
     public float explodeTime;
     public float bombTime;
@@ -30,13 +32,13 @@ public class BombController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if(bombsRemain > 0 && Input.GetButtonDown("ColorBomb") && CompareTag("Player1"))
+        if(bombsRemain > 0 && Input.GetKeyDown(inputBomb) && CompareTag("Player1"))
         {
             StartCoroutine(PlaceBomb());
 
         }
 
-        if(bombsRemain > 0 && Input.GetButtonDown("MonoBomb") && CompareTag("Player2"))
+        if(bombsRemain > 0 && Input.GetKeyDown(inputBomb) && CompareTag("Player2"))
         {
             StartCoroutine(PlaceBomb());
 

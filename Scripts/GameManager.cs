@@ -6,6 +6,32 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject[] player;
+    public GameObject title;
+
+    public AudioSource bgMusic;
+
+    public bool gameStarted = false;
+
+    public void StartGame()
+    {
+        title.gameObject.SetActive(false);
+
+        bgMusic.Play();
+
+        gameStarted = true;
+
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyUp(KeyCode.Escape))
+        {
+            Debug.Log("Game Closed");
+
+            Application.Quit();
+        }
+
+    }
 
     public void CheckWinState()
     {
